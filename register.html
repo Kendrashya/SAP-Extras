@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAPUI 5 Registration Page</title>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1068.0" data-gr-ext-installed="" style="
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-style: Sans-Serif;
+    font-weight: 400;
+">
+    <header align="center" style="
+    font-size: 30px;
+    border: 1px;
+    border-color: black;
+    border-width: 2px;
+    background-color: #455a64;
+    /* margin-top: 8px; */
+    /* margin-left: 8px; */
+    /* margin-right: 8px; */
+    margin-bottom: 29px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: 600;
+    color: white;
+">
+        Registration Page
+    </header>
+    <div style="
+    font-size: 25px;
+"><table style="
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+">
+    <tbody>
+        <form action="/index.html">
+    <tr>
+        <td style="padding: 15px;"><label for="fname" style="margin-right: 30px;">First name:</label></td>
+        <td style="padding: 15px;"><input type="text" id="fname" name="fname" value="Johnn"><br></td>
+    </tr>
+    <tr>
+        <td style="padding: 15px;"><label for="lname" style="margin-right: 30px;">Last name:</label></td>
+        <td style="padding: 15px;"><input type="text" id="lname" name="fname" value="Cena"><br></td>
+    </tr>
+    <tr>
+        <td style="padding: 15px;"><label for="dob" style="margin-right: 30px;">Password:</label></td>
+        <td style="padding: 15px;"><input type="password" id="fname" name="fname" value=""><br></td>
+    </tr>
+    <tr>
+        <td style="padding: 15px;padding-top: 0px;"><label for="lname" style="margin-right: 30px;">Confirm Password:</label></td>
+        <td style="padding: 15px;padding-top: 30px;"><input type="password" id="lname" name="lname" value=""><br><br></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="padding-left: 60px; /* font-size: 26px; */"><input type="submit" formaction="/index.html" value="Submit" style="
+    font-size: 16px;"></td>
+    </tr>
+  
+    </form>
+    </tbody></table>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
